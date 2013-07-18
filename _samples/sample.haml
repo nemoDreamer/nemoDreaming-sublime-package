@@ -1,0 +1,9 @@
+%html
+	%body.index{lang: 'en'}
+
+		#content.new{:bool => true, :attr => 'yes'}
+			= yield
+
+		#footer.small><
+			%span= Users.each do |user|
+				user.name
