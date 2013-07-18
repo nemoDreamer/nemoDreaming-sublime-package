@@ -235,6 +235,19 @@
 		 </dict>
 		<dict>
 			<key>name</key>
+			<string>- Tag</string>
+			<key>scope</key>
+			<string>entity.name.tag, source.sass keyword.control.untitled</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#66C</string>
+				<key>background</key>
+				<string>#6666CC11</string>
+			</dict>
+		 </dict>
+		<dict>
+			<key>name</key>
 			<string>- Other</string>
 			<key>scope</key>
 			<string>entity.other</string>
