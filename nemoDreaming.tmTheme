@@ -43,7 +43,7 @@
 			<key>name</key>
 			<string>Comment</string>
 			<key>scope</key>
-			<string>comment</string>
+			<string>comment, comment.block.html invalid</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
