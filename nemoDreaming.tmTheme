@@ -404,23 +404,32 @@
 			<string>markup.list</string>
 			<key>settings</key>
 			<dict>
-				<key>fontStyle</key>
-				<string>italic</string>
 				<key>foreground</key>
 				<string>#6c96b6</string>
 			</dict>
 		</dict>
-		<!-- <dict>
+		<dict>
 			<key>name</key>
-			<string>- Punctuation</string>
+			<string>Markdown Italic</string>
 			<key>scope</key>
-			<string>text.html.markdown punctuation.definition.list_item</string>
+			<string>markup.italic</string>
 			<key>settings</key>
 			<dict>
-				<key>foreground</key>
-				<string>#b3cadb</string>
+				<key>fontStyle</key>
+				<string>italic</string>
 			</dict>
-		</dict> -->
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Markdown Bold</string>
+			<key>scope</key>
+			<string>markup.bold</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string>bold</string>
+			</dict>
+		</dict>
 	</array>
 
 	<key>uuid</key>
